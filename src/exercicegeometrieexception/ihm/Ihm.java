@@ -1,11 +1,6 @@
 package exercicegeometrieexception.ihm;
 
 import exercicegeometrieexception.ctrl.ICtrlIhm;
-import java.awt.Dimension;
-import java.awt.Image;
-import java.lang.reflect.Method;
-import javax.swing.ImageIcon;
-import javax.swing.UIManager;
 
 public class Ihm extends javax.swing.JFrame implements IIhmCtrl {
 
@@ -62,6 +57,18 @@ public class Ihm extends javax.swing.JFrame implements IIhmCtrl {
 
     public void afficheMessage( String message ) {
         tMessage.setText( message );
+    }
+
+    public String getTCircleAire() {
+        return tAireCercle.getText();
+    }
+
+    public String getTRectangleAire() {
+        return tAireRectangle.getText();
+    }
+
+    public String getTRectangleLonguer() {
+        return tLongueur.getText();
     }
 
     public void afficheResultatCircle( String value ) {

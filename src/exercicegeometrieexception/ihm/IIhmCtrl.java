@@ -9,4 +9,10 @@ public interface IIhmCtrl {
     void afficheResultatRectangle( String value );
 
     void afficheMessage( String message );
+
+    public String getTCircleAire();
+
+    public String getTRectangleAire();
+
+    public String getTRectangleLonguer();
 }
